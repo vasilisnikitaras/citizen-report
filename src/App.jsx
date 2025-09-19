@@ -74,8 +74,22 @@ function App() {
 <ClearReports />
 <ExportCSV />
 
+      {/* ✅ Εδώ μπαίνει το poetic footer */}
+    <footer style={{ textAlign: 'center', marginTop: '3rem', fontSize: '0.9rem', opacity: 0.6 }}>
+      © 2025 Vasilis — SIGAQC & Citizen Report. Licensed under MIT. Crafted with clarity, exported with soul. Namaste.
+    </footer>
+  </div>
+)
+
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
