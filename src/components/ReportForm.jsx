@@ -21,6 +21,10 @@ export default function ReportForm({ selectedType }) {
     setDescription('');
     setLocation('');
     alert('✅ Καταγγελία καταχωρήθηκε!');
+
+    // 🔄 Κάνει refresh τη σελίδα
+    window.location.reload();
+
   };
 
   if (!selectedType) return null;
