@@ -20,11 +20,20 @@ export default function ReportForm({ selectedType }) {
     window.dispatchEvent(new Event('report-submitted'));
     setDescription('');
     setLocation('');
+
+  /*
     alert('✅ Καταγγελία καταχωρήθηκε!');
-
+*/
     // 🔄 Κάνει refresh τη σελίδα
-    window.location.reload();
+ /*   window.location.reload();   */
 
+
+alert('✅ Καταγγελία καταχωρήθηκε!');
+setTimeout(() => {
+  window.location.reload();
+}, 100); // μικρή καθυστέρηση για να κλείσει το alert
+
+  
   };
 
   if (!selectedType) return null;
