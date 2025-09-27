@@ -29,10 +29,17 @@ export default function ReportForm({ selectedType }) {
 
 
 alert('✅ Καταγγελία καταχωρήθηκε!');
+
+{/*  
 setTimeout(() => {
   window.location.reload();
 }, 100); // μικρή καθυστέρηση για να κλείσει το alert
+*/}
+setTimeout(() => {
+  window.location.href = window.location.href;
+}, 100);
 
+  
   
   };
 
