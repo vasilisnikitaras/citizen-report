@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from 'react';
 
 export default function ReportForm({ selectedType }) {
@@ -152,4 +151,4 @@ export default function ReportForm({ selectedType }) {
     </div>
   );
 }
->>>>>>> 8135780e4c12dfc8c0c7b35c0dbdec0126292066
+
