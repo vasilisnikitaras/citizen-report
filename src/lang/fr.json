@@ -1,5 +1,40 @@
 {
   "loginTitle": "Connexion utilisateur",
   "username": "Nom d'utilisateur",
-  "loginButton": "Connexion"
+  "loginButton": "Connexion",
+
+  "loggedInAs": "Connecté en tant que",
+  "logout": "Déconnexion",
+  "lightTheme": "Thème clair",
+  "darkTheme": "Thème sombre",
+
+  "selectReportType": "Choisir le type de signalement",
+  "dangerousDriving": "Conduite dangereuse",
+  "illegalParking": "Stationnement illégal",
+  "violenceHarassment": "Violence / Harcèlement",
+  "corruptionPublicService": "Corruption / Service public",
+  "clearSelection": "Effacer la sélection",
+
+  "incidentDescription": "Description de l'incident...",
+  "incidentLocation": "Lieu de l'incident...",
+  "submitReport": "Soumettre le signalement",
+  "reportSubmitted": "Signalement enregistré!",
+
+  "registeredReports": "Signalements enregistrés",
+  "location": "Lieu",
+  "exportTXT": "Exporter TXT",
+  "exportJSON": "Exporter JSON",
+
+  "reportStats": "Statistiques des signalements",
+  "reports": "signalements",
+
+  "clearAllReports": "Effacer tous les signalements",
+  "allReportsCleared": "Tous les signalements ont été effacés!",
+  "exportCSV": "Exporter CSV",
+  "noReportsToExport": "Aucun signalement à exporter!",
+
+  "confirmClearReports": 
+  "Êtes-vous sûr de vouloir effacer tous les signalements?",
+
+"submittedBy": "Soumis par"
 }

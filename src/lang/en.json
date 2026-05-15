@@ -1,5 +1,40 @@
 {
   "loginTitle": "User Login",
   "username": "Username",
-  "loginButton": "Login"
+  "loginButton": "Login",
+
+  "loggedInAs": "loggedInAs",
+  "logout": "logout",
+  "lightTheme": "lightTheme",
+  "darkTheme": "darkTheme",
+
+  "selectReportType": "Choose report type",
+  "dangerousDriving": "Dangerous Driving",
+  "illegalParking": "Illegal Parking",
+  "violenceHarassment": "Violence / Harassment",
+  "corruptionPublicService": "Corruption / Public Service",
+  "clearSelection": "Clear Selection",
+
+  "incidentDescription": "Incident description...",
+  "incidentLocation": "Incident location...",
+  "submitReport": "Submit Report",
+  "reportSubmitted": "Report submitted!",
+
+  "registeredReports": "Registered Reports",
+  "location": "Location",
+  "exportTXT": "Export TXT",
+  "exportJSON": "Export JSON",
+
+  "reportStats": "Report Statistics",
+  "reports": "reports",
+
+  "clearAllReports": "Clear All Reports",
+  "allReportsCleared": "All reports cleared!",
+  "exportCSV": "Export CSV",
+  "noReportsToExport": "No reports to export!",
+
+  "confirmClearReports": 
+  "Are you sure you want to clear all reports?",
+
+  "submittedBy": "Submitted by"
 }

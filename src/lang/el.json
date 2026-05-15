@@ -1,5 +1,41 @@
 {
   "loginTitle": "Σύνδεση Χρήστη",
   "username": "Όνομα χρήστη",
-  "loginButton": "Σύνδεση"
+  "loginButton": "Σύνδεση",
+
+  "loggedInAs": "Συνδεδεμένος ως",
+  "logout": "Αποσύνδεση",
+  "lightTheme": "Φωτεινό Θέμα",
+  "darkTheme": "Σκοτεινό Θέμα",
+
+  "selectReportType": "Επίλεξε τύπο καταγγελίας",
+  "dangerousDriving": "Επικίνδυνη Οδήγηση",
+  "illegalParking": "Παράνομη Στάθμευση",
+  "violenceHarassment": "Βία / Παρενόχληση",
+  "corruptionPublicService": "Διαφθορά / Δημόσια Υπηρεσία",
+  "clearSelection": "Καθαρισμός Επιλογής",
+
+  "incidentDescription": "Περιγραφή περιστατικού...",
+  "incidentLocation": "Τοποθεσία περιστατικού...",
+  "submitReport": "Υποβολή Καταγγελίας",
+  "reportSubmitted": "Καταγγελία καταχωρήθηκε!",
+
+  "registeredReports": "Καταχωρημένες Καταγγελίες",
+  "location": "Τοποθεσία",
+  "exportTXT": "Export TXT",
+  "exportJSON": "Export JSON",
+
+  "reportStats": "Στατιστικά Καταγγελιών",
+  "reports": "καταγγελίες",
+
+  "clearAllReports": "Καθαρισμός Όλων των Καταγγελιών",
+  "allReportsCleared": "Όλες οι καταγγελίες καθαρίστηκαν!",
+  "exportCSV": "Export CSV",
+  "noReportsToExport": "Δεν υπάρχουν καταγγελίες για εξαγωγή!",
+
+  "confirmClearReports": 
+  "Είσαι σίγουρος ότι θέλεις να καθαρίσεις όλες τις καταγγελίες;",
+
+  "submittedBy": "Υποβλήθηκε από"
+
 }

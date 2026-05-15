@@ -1,0 +1,41 @@
+{
+  "loginTitle": "Вход пользователя",
+  "username": "Имя пользователя",
+  "loginButton": "Войти",
+
+  "loggedInAs": "Вы вошли как",
+  "logout": "Выйти",
+  "lightTheme": "Светлая тема",
+  "darkTheme": "Темная тема",
+
+  "selectReportType": "Выберите тип жалобы",
+  "dangerousDriving": "Опасное вождение",
+  "illegalParking": "Неправильная парковка",
+  "violenceHarassment": "Насилие / Домогательства",
+  "corruptionPublicService": "Коррупция / Госслужба",
+  "clearSelection": "Очистить выбор",
+
+  "incidentDescription": "Описание инцидента...",
+  "incidentLocation": "Место инцидента...",
+  "submitReport": "Отправить жалобу",
+  "reportSubmitted": "Жалоба отправлена!",
+
+  "registeredReports": "Зарегистрированные жалобы",
+  "location": "Местоположение",
+  "exportTXT": "Экспорт TXT",
+  "exportJSON": "Экспорт JSON",
+
+  "reportStats": "Статистика жалоб",
+  "reports": "жалобы",
+
+  "clearAllReports": "Очистить все жалобы",
+  "allReportsCleared": "Все жалобы очищены!",
+  "exportCSV": "Экспорт CSV",
+  "noReportsToExport": "Нет жалоб для экспорта!",
+
+  "confirmClearReports": 
+  "Вы уверены, что хотите удалить все жалобы?",
+
+  "submittedBy": "Отправлено пользователем"
+
+}

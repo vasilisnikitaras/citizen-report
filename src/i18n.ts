@@ -1,43 +1,31 @@
-import en from "./lang/en.json"
-import el from "./lang/el.json"
-import fr from "./lang/fr.json"
+let currentLang = "en"
+let currentTranslations = {}
 
-const translations: Record<string, any> = { en, el, fr }
-
-export async function detectGeoLanguage(): Promise<string> {
+export async function loadLanguage(lang) {
   try {
-    const res = await fetch("https://ipapi.co/json/")
-    const data = await res.json()
+    const data = await import(`./lang/${lang}.json`)
+    currentLang = lang
+    currentTranslations = data.default
 
-    const country = data.country_code as string
+    localStorage.setItem("lang", lang)
+    window.dispatchEvent(new Event("language-changed"))
+    return currentTranslations
+  } catch (e) {
+    const fallback = await import("./lang/en.json")
+    currentLang = "en"
+    currentTranslations = fallback.default
 
-    const countryToLang: Record<string, string> = {
-      GR: "el",
-      CA: "fr",
-      FR: "fr",
-      US: "en",
-      GB: "en"
-    }
-
-    return countryToLang[country] || "en"
-  } catch {
-    return "en"
+    localStorage.setItem("lang", "en")
+    window.dispatchEvent(new Event("language-changed"))
+    return currentTranslations
   }
 }
 
-export async function getInitialLanguage(): Promise<string> {
+export async function getInitialLanguage() {
   const saved = localStorage.getItem("lang")
-  if (saved && translations[saved]) return saved
-
-  const geoLang = await detectGeoLanguage()
-  if (translations[geoLang]) return geoLang
-
-  const browserLang = navigator.language.split("-")[0]
-  if (translations[browserLang]) return browserLang
-
-  return "en"
+  return saved || "en"
 }
 
-export function getTranslations(lang: string) {
-  return translations[lang] || translations["en"]
+export function t(key) {
+  return currentTranslations[key] || key
 }

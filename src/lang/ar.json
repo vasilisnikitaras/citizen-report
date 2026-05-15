@@ -1,0 +1,40 @@
+{
+  "loginTitle": "تسجيل دخول المستخدم",
+  "username": "اسم المستخدم",
+  "loginButton": "تسجيل الدخول",
+
+  "loggedInAs": "مسجل الدخول باسم",
+  "logout": "تسجيل الخروج",
+  "lightTheme": "الوضع الفاتح",
+  "darkTheme": "الوضع الداكن",
+
+  "selectReportType": "اختر نوع البلاغ",
+  "dangerousDriving": "القيادة الخطرة",
+  "illegalParking": "وقوف غير قانوني",
+  "violenceHarassment": "عنف / مضايقة",
+  "corruptionPublicService": "فساد / خدمة عامة",
+  "clearSelection": "مسح الاختيار",
+
+  "incidentDescription": "وصف الحادث...",
+  "incidentLocation": "موقع الحادث...",
+  "submitReport": "إرسال البلاغ",
+  "reportSubmitted": "تم إرسال البلاغ!",
+
+  "registeredReports": "البلاغات المسجلة",
+  "location": "الموقع",
+  "exportTXT": "تصدير TXT",
+  "exportJSON": "تصدير JSON",
+
+  "reportStats": "إحصائيات البلاغات",
+  "reports": "بلاغات",
+
+  "clearAllReports": "مسح جميع البلاغات",
+  "allReportsCleared": "تم مسح جميع البلاغات!",
+  "exportCSV": "تصدير CSV",
+  "noReportsToExport": "لا توجد بلاغات للتصدير!",
+
+  "confirmClearReports": 
+  "هل أنت متأكد أنك تريد مسح جميع البلاغات؟",
+
+  "submittedBy": "تم الإرسال بواسطة"
+}

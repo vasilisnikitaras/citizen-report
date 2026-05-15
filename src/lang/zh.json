@@ -1,0 +1,39 @@
+{
+  "loginTitle": "用户登录",
+  "username": "用户名",
+  "loginButton": "登录",
+
+  "loggedInAs": "当前用户",
+  "logout": "退出",
+  "lightTheme": "亮色主题",
+  "darkTheme": "暗色主题",
+
+  "selectReportType": "选择举报类型",
+  "dangerousDriving": "危险驾驶",
+  "illegalParking": "非法停车",
+  "violenceHarassment": "暴力 / 骚扰",
+  "corruptionPublicService": "腐败 / 公共服务",
+  "clearSelection": "清除选择",
+
+  "incidentDescription": "事件描述...",
+  "incidentLocation": "事件地点...",
+  "submitReport": "提交举报",
+  "reportSubmitted": "举报已提交!",
+
+  "registeredReports": "已登记的举报",
+  "location": "地点",
+  "exportTXT": "导出 TXT",
+  "exportJSON": "导出 JSON",
+
+  "reportStats": "举报统计",
+  "reports": "举报",
+
+  "clearAllReports": "清除所有举报",
+  "allReportsCleared": "所有举报已清除!",
+  "exportCSV": "导出 CSV",
+  "noReportsToExport": "没有可导出的举报!",
+
+  "confirmClearReports": "您确定要清除所有举报吗？",
+
+"submittedBy": "提交者"
+}

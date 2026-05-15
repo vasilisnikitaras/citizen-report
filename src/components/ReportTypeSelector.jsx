@@ -1,53 +1,62 @@
-import React from 'react';
+import React from "react"
+import { t } from "../i18n"
 
 export default function ReportTypeSelector({ selectedType, setSelectedType }) {
   const types = [
-    { emoji: "🚗", label: "Επικίνδυνη Οδήγηση" },
-    { emoji: "🅿️", label: "Παράνομη Στάθμευση" },
-    { emoji: "🧍", label: "Βία / Παρενόχληση" },
-    { emoji: "🏢", label: "Διαφθορά / Δημόσια Υπηρεσία" }
-  ];
+    { emoji: "🚗", key: "dangerousDriving" },
+    { emoji: "🅿️", key: "illegalParking" },
+    { emoji: "🧍", key: "violenceHarassment" },
+    { emoji: "🏢", key: "corruptionPublicService" }
+  ]
 
   return (
-    <div style={{ marginBottom: '20px' }}>
-      <p style={{ fontSize: '18px' }}>Επίλεξε τύπο καταγγελίας:</p>
-      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '10px' }}>
-        {types.map(({ emoji, label }) => (
+    <div style={{ marginBottom: "20px" }}>
+      <p style={{ fontSize: "18px" }}>{t("selectReportType")}</p>
+
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          gap: "10px",
+        }}
+      >
+        {types.map(({ emoji, key }) => (
           <button
-            key={label}
-            onClick={() => setSelectedType(label)}
+            key={key}
+            onClick={() => setSelectedType(t(key))}
             style={{
-              backgroundColor: selectedType === label ? '#CC7722' : '#333',
-              color: 'white',
-              border: 'none',
-              padding: '12px 18px',
-              borderRadius: '8px',
-              fontSize: '16px',
-              cursor: 'pointer',
-              minWidth: '200px'
+              backgroundColor: selectedType === t(key) ? "#CC7722" : "#333",
+              color: "white",
+              border: "none",
+              padding: "12px 18px",
+              borderRadius: "8px",
+              fontSize: "16px",
+              cursor: "pointer",
+              minWidth: "200px",
             }}
           >
-            {emoji} {label}
+            {emoji} {t(key)}
           </button>
         ))}
       </div>
 
       {selectedType && (
         <button
-          onClick={() => setSelectedType('')}
+          onClick={() => setSelectedType("")}
           style={{
-            marginTop: '15px',
-            backgroundColor: '#666',
-            color: 'white',
-            border: 'none',
-            padding: '10px 20px',
-            borderRadius: '6px',
-            cursor: 'pointer'
+            marginTop: "15px",
+            backgroundColor: "#666",
+            color: "white",
+            border: "none",
+            padding: "10px 20px",
+            borderRadius: "6px",
+            cursor: "pointer",
           }}
         >
-          ❌ Καθαρισμός Επιλογής
+          ❌ {t("clearSelection")}
         </button>
       )}
     </div>
-  );
+  )
 }

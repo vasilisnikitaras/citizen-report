@@ -1,0 +1,40 @@
+{
+  "loginTitle": "उपयोगकर्ता लॉगिन",
+  "username": "उपयोगकर्ता नाम",
+  "loginButton": "लॉगिन",
+
+  "loggedInAs": "लॉग इन किया हुआ उपयोगकर्ता",
+  "logout": "लॉगआउट",
+  "lightTheme": "लाइट थीम",
+  "darkTheme": "डार्क थीम",
+
+  "selectReportType": "रिपोर्ट प्रकार चुनें",
+  "dangerousDriving": "खतरनाक ड्राइविंग",
+  "illegalParking": "अवैध पार्किंग",
+  "violenceHarassment": "हिंसा / उत्पीड़न",
+  "corruptionPublicService": "भ्रष्टाचार / सार्वजनिक सेवा",
+  "clearSelection": "चयन साफ़ करें",
+
+  "incidentDescription": "घटना का विवरण...",
+  "incidentLocation": "घटना का स्थान...",
+  "submitReport": "रिपोर्ट सबमिट करें",
+  "reportSubmitted": "रिपोर्ट सबमिट हो गई!",
+
+  "registeredReports": "पंजीकृत रिपोर्ट",
+  "location": "स्थान",
+  "exportTXT": "TXT निर्यात करें",
+  "exportJSON": "JSON निर्यात करें",
+
+  "reportStats": "रिपोर्ट सांख्यिकी",
+  "reports": "रिपोर्ट",
+
+  "clearAllReports": "सभी रिपोर्ट साफ़ करें",
+  "allReportsCleared": "सभी रिपोर्ट साफ़ कर दी गईं!",
+  "exportCSV": "CSV निर्यात करें",
+  "noReportsToExport": "निर्यात करने के लिए कोई रिपोर्ट नहीं!",
+
+  "confirmClearReports": 
+  "क्या आप वाकई सभी रिपोर्ट साफ़ करना चाहते हैं?",
+
+"submittedBy": "द्वारा सबमिट किया गया"
+}

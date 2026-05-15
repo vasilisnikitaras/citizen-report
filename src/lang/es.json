@@ -1,0 +1,40 @@
+{
+  "loginTitle": "Inicio de sesión",
+  "username": "Nombre de usuario",
+  "loginButton": "Entrar",
+
+  "loggedInAs": "Conectado como",
+  "logout": "Cerrar sesión",
+  "lightTheme": "Tema claro",
+  "darkTheme": "Tema oscuro",
+
+  "selectReportType": "Elige tipo de reporte",
+  "dangerousDriving": "Conducción peligrosa",
+  "illegalParking": "Estacionamiento ilegal",
+  "violenceHarassment": "Violencia / Acoso",
+  "corruptionPublicService": "Corrupción / Servicio público",
+  "clearSelection": "Limpiar selección",
+
+  "incidentDescription": "Descripción del incidente...",
+  "incidentLocation": "Ubicación del incidente...",
+  "submitReport": "Enviar reporte",
+  "reportSubmitted": "Reporte enviado!",
+
+  "registeredReports": "Reportes registrados",
+  "location": "Ubicación",
+  "exportTXT": "Exportar TXT",
+  "exportJSON": "Exportar JSON",
+
+  "reportStats": "Estadísticas de reportes",
+  "reports": "reportes",
+
+  "clearAllReports": "Borrar todos los reportes",
+  "allReportsCleared": "Todos los reportes fueron borrados!",
+  "exportCSV": "Exportar CSV",
+  "noReportsToExport": "No hay reportes para exportar!",
+
+  "confirmClearReports": 
+  "¿Estás seguro de que deseas borrar todos los reportes?",
+
+"submittedBy": "Enviado por"
+}
